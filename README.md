@@ -1,4 +1,4 @@
-# dans2019-exercise
+# dans2019-ccslab
 
 ## 필수 프로그램
 
