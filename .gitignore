@@ -47,3 +47,5 @@ vignettes/*.pdf
 .Rhistory
 .RData
 .Ruserdata
+
+data/
