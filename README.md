@@ -2,7 +2,7 @@
 
 ## 준비물
 
-본 실습 세션에서는 Mixed-gamples task 데이터(Tom et al., 2007)를 사용합니다.
+본 실습 세션에서는 Mixed-gamples task 데이터(Tom et al., 2017)를 사용합니다.
 편의를 위해 fMRI 분석을 위한 Python 패키지인 [`fmriprep`][fmriprep]으로
 전처리된 데이터(약 18 GB)를 사용하도록 하겠습니다.
 데이터는 OpenNeuro를 통해 [이 링크][data]에 공유되어 있으며,
