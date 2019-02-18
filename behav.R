@@ -66,8 +66,8 @@ write.table(all_data, "tom2017_behav.txt",
             col.names = T, row.names = F, sep = "\t")
 
 # run ra_noRA (type ?ra_noRA for more info)
-output1 = ra_noRA("tom2017_behav.txt", niter=1000, nwarmup=500,
-                  nchain=4, ncore=4, inits="fixed")
+output1 = ra_noRA("tom2017_behav.txt", niter=2000, nwarmup=1000,
+                  nchain=2, ncore=2, inits="fixed")
 
 # check if rhat is less than 1.1
 rhat(output1, less = 1.1)
