@@ -1,5 +1,17 @@
 # dans2019-exercise
 
+## 필수 프로그램
+
+1. hBayesDM R package 설치. 자세한 설치법은 [이 링크](https://github.com/CCS-Lab/hBayesDM)를 참고하세요. rstan이 제대로 설치가 안되서 hBayesDM 제대로 안 될 경우가 많으니까 설치가 제대로 됐는지 꼭 확인하세요. rstan이 제대로 설치가 되었는지 [여기](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started)에 가서 Eight Schools 예제가 돌아가는지 확인해 주세요. 
+
+```r
+install.packages("hBayesDM", dependencies=T)  # Install from CRAN
+```
+
+2. MATLAB 및 SPM12 설치
+
+수업 전에 `matlab_functions` 폴더 안에 있는 `tsvread.m` 파일과 SPM12를 꼭 설치(`Set Path`로 가서 추가)하셔야 합니다. 
+
 ## 준비물
 
 본 실습 세션에서는 Mixed-gamples task 데이터(Tom et al., 2007, Science)를 사용합니다.
@@ -35,4 +47,6 @@ AWS CLI가 설치되셨으면 터미널 혹은 커맨드 프롬프트(`cmd`)에�
 ```bash
 aws --no-sign-request s3 sync s3://openneuro.outputs/fb711c8cc868b565f709f5690e408cb4/51598f96-48b1-44df-b775-e0ad10bd1e29 tom-data
 ```
+## 수업 슬라이드
 
+수업 전에 강사가 내용을 약간씩 수정할 수 있으므로 수업 시작 전에 최종본을 확인하세요. 이 [Dropbox link](https://www.dropbox.com/sh/4te1gco5aih47hf/AACsEKjO2qBRsi17vprhA3pta?dl=0)로 가시면 up-to-date된 수업 슬라이드를 다운 받을 수 있습니다. 
