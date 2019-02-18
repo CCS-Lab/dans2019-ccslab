@@ -10,7 +10,7 @@ install.packages("hBayesDM", dependencies=T)  # Install from CRAN
 
 2. MATLAB 및 SPM12 설치
 
-수업 전에 `matlab_functions` 폴더 안에 있는 `tsvread.m` 파일과 SPM12를 꼭 설치(`Set Path`로 가서 추가)하셔야 합니다. 동일 폴더 안에 있는 `xjview`도 권장합니다 (그냥 같이 설치 하세요). 
+수업 전에 `matlab_functions` 폴더 안에 있는 `tsvread.m` 파일과 SPM12를 꼭 설치(`Set Path`로 가서 추가)하셔야 합니다. 동일 폴더 안에 있는 [xjview](http://www.alivelearn.net/xjview/)도 권장합니다 (그냥 같이 설치 하세요). 
 
 ## 준비물
 
