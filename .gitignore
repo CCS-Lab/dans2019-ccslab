@@ -7,6 +7,9 @@
 .Rhistory
 .Rapp.history
 
+# Solution files
+*_solution.R
+
 # Session Data files
 .RData
 

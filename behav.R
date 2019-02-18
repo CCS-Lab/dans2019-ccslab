@@ -82,6 +82,13 @@ plotInd(output1, "tau")  # tau (inverse temperature)
 
 # lm analysis
 
+all_lambda = NULL
+subjIDs = unique(all_data$subjID)
+for (i in 1:length(subjIDs)) {
+  tmpData = subset(all_data, subjID == subjIDs[i])
+  tmp_results = lm(gamble ~ gain + loss, data = tmpData)
+  all_lambda[i] = -tmp_results$coefficients[3] / tmp_results$coefficients[2]
+}
 
 
 
