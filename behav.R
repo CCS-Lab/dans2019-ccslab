@@ -66,7 +66,7 @@ write.table(all_data, "tom2007_behav.txt",
             col.names = T, row.names = F, sep = "\t")
 
 # run ra_noRA (type ?ra_noRA for more info)
-output1 = ra_noRA("tom2017_behav.txt", niter=2000, nwarmup=1000,
+output1 = ra_noRA("tom2007_behav.txt", niter=2000, nwarmup=1000,
                   nchain=2, ncore=2, inits="fixed")
 
 # check if rhat is less than 1.1
@@ -78,3 +78,10 @@ plot(output1)
 # plot individual parameters
 plotInd(output1, "lambda")  # lambda (loss aversion)
 plotInd(output1, "tau")  # tau (inverse temperature)
+
+
+# lm analysis
+
+
+
+
