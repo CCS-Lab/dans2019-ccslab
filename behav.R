@@ -1,5 +1,5 @@
-# (1) combine *.tsv files into a single txt file (tom2017_behav.txt) for computational modeling
-# (2) run ra_noRA model with the tom2017_behav.txt file. 
+# (1) combine *.tsv files into a single txt file (tom2007_behav.txt) for computational modeling
+# (2) run ra_noRA model with the tom2007_behav.txt file. 
 # Programmed by Woo-Young Ahn
 # Feb 2019
 # Student version
@@ -62,7 +62,7 @@ table(all_data$subjID)  # each subject should have 174-256 trials
 #     -1 = no response
 
 # save all_data as a text file so that it can be loaded from hBayesDM
-write.table(all_data, "tom2017_behav.txt",
+write.table(all_data, "tom2007_behav.txt",
             col.names = T, row.names = F, sep = "\t")
 
 # run ra_noRA (type ?ra_noRA for more info)
