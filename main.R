@@ -14,12 +14,6 @@ if (!require(hBayesDM)) {
 }
 library(hBayesDM)  # load hBayesDM. hBayesDM should be installed first. 
 
-# Install aws.s3 to download OpenNeuro data from AWS S3.
-if (!require(aws.s3)) {
-  install.packages('aws.s3')
-}
-library(aws.s3)
-
 # Modify these two lines based on your settings 
 ################################################################################################
 setwd("~/Dropbox/Research/DANS_2019/behav_code/")  # set working directory to ...
