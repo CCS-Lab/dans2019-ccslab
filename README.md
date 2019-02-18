@@ -1,4 +1,4 @@
-# dans2019-ccslab
+# DANS2019 by CCS Lab
 
 ## 필수 프로그램
 
