@@ -23,7 +23,7 @@ install.packages("hBayesDM", dependencies=T)  # Install from CRAN
 
 [data]: https://openneuro.org/datasets/ds000005/versions/00001
 [fmriprep]: https://github.com/poldracklab/fmriprep
-
+ 
 ### (easy) 웹 사이트에서 다운로드
 
 [이 링크][data]로 들어가시면 우측에 Analysis 탭이 있습니다.
