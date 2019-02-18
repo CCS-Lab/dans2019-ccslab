@@ -14,13 +14,8 @@ if (!require(hBayesDM)) {
 }
 library(hBayesDM)  # load hBayesDM. hBayesDM should be installed first. 
 
-# Modify these two lines based on your settings 
-################################################################################################
-setwd("~/Dropbox/Research/DANS_2019/behav_code/")  # set working directory to ...
-behav_data_path = "~/Dropbox/Research/DANS_2019/behav_data"  # path to behavioral data
-################################################################################################
-
 # make a list of files in behav_data_path
+behav_data_path = "behav_data"  # path to behavioral data
 file_list = dir(behav_data_path)
 
 all_data = NULL 
